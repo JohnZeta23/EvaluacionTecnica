@@ -31,12 +31,12 @@ namespace EvaluacionTecnica.Data
                             user.Usuario_Transaccion,
                             user.Fecha_Transaccion
                         };
-            if(query.Count() != 0)
+            if(query.Count() == 0)
             {
-                return await query.FirstAsync();
+                return null;
             }
 
-            return null;
+            return await query.FirstAsync();
         }
 
         public async Task<List<Object>> ListarUsuarios()
@@ -67,7 +67,7 @@ namespace EvaluacionTecnica.Data
                         where user.Usuario_Nombre == usuario_nombre && user.Contraseña == contraseña
                         select user;
 
-            if (await query.CountAsync() <= 0)
+            if (await query.CountAsync() == 0)
             {
                 return "No se pudo loguear de manera exitosa, revise sus credenciales e intente de nuevo";
             }

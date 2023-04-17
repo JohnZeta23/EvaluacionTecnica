@@ -15,7 +15,7 @@ namespace EvaluacionTecnica.Negocios
         
         public void Current_UserCreate(string Current_User)
         {
-            File.WriteAllText($"{Current_User}-log.txt", Current_User);
+            File.WriteAllText("User-log.txt", Current_User);
         }
     }
 }

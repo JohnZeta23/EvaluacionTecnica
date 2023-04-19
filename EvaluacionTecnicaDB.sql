@@ -31,3 +31,6 @@ INSERT INTO Usuarios(Id,RoleId,Nombre,Apellido,Cedula,Usuario_Nombre,Contraseña
 VALUES(1,1,'Simetrica','Consulting','25322522135','ADMIN','ADMIN','01-01-1990')
 INSERT INTO Usuarios(Id,RoleId,Nombre,Apellido,Cedula,Usuario_Nombre,Contraseña,Fecha_Nacimiento)  
 VALUES(2,2,'John','Consulting','0000000000','DESARROLLADOR','APLICANTE','02-25-2000')
+
+SELECT U.Nombre,U.apellido,U.Cedula,U.Usuario_nombre,U.Contraseña,U.Fecha_Nacimiento,R.nombre
+FROM Usuarios U INNER JOIN Roles R on U.RoleId =R.Id

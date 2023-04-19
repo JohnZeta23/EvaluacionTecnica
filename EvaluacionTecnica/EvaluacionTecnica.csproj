@@ -187,8 +187,8 @@
     <Compile Include="Controllers\RoleController.cs" />
     <Compile Include="Controllers\UsuarioController.cs" />
     <Compile Include="Data\EvaluacionTecnicaDBContext.cs" />
-    <Compile Include="Data\RoleCRUD.cs" />
-    <Compile Include="Data\UsuariosCRUD.cs" />
+    <Compile Include="Negocios\RoleCRUD.cs" />
+    <Compile Include="Negocios\UsuariosCRUD.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

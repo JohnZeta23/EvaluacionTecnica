@@ -1,4 +1,5 @@
-﻿using EvaluacionTecnica.Models;
+﻿using EvaluacionTecnica.Data;
+using EvaluacionTecnica.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -6,7 +7,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace EvaluacionTecnica.Data
+namespace EvaluacionTecnica.Negocios
 {
     public class RoleCRUD
     {
@@ -41,7 +42,7 @@ namespace EvaluacionTecnica.Data
             _context.Entry(role).State = EntityState.Modified;
             await _context.SaveChangesAsync();
 
-            return $"El ROL con el ID{id} ha sido editado satisfactoriamente";
+            return $"El ROL con el ID {id} ha sido editado satisfactoriamente";
         }
 
         public async Task<string> EliminarRole(int id)

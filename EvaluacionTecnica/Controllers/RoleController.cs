@@ -1,4 +1,4 @@
-﻿using EvaluacionTecnica.Data;
+﻿using EvaluacionTecnica.Negocios;
 using EvaluacionTecnica.Models;
 using System;
 using System.Collections.Generic;

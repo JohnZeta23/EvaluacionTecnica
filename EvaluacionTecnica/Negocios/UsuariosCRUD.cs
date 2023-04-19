@@ -1,4 +1,5 @@
-﻿using EvaluacionTecnica.Models;
+﻿using EvaluacionTecnica.Data;
+using EvaluacionTecnica.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -6,7 +7,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Web;
 
-namespace EvaluacionTecnica.Data
+namespace EvaluacionTecnica.Negocios
 {
     public class UsuariosCRUD
     {

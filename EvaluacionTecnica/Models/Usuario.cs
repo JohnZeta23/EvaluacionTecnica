@@ -27,7 +27,7 @@ namespace EvaluacionTecnica.Models
         [StringLength(16)]
         [Index(IsUnique = true, Order = 2)]
         public string Usuario_Nombre { get; set; }
-        public string Contraseña { get; set; }
+        public string Contrasena { get; set; }
         [Index]
         public DateTime Fecha_Nacimiento { get; set; }
         [DefaultValueAttribute("USER")]

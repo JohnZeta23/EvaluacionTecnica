@@ -32,9 +32,9 @@ namespace EvaluacionTecnica.Controllers
 
         [HttpGet]
         [Route("LoginUsuario/{usuario_nombre}/{contraseña}")]
-        public async Task<string> LoginUsuario(string usuario_nombre, string contraseña)
+        public async Task<string> LoginUsuario(string usuario_nombre, string contrasena)
         {
-            return await crud.LoginUsuario(usuario_nombre, contraseña);
+            return await crud.LoginUsuario(usuario_nombre, contrasena);
         }
 
         [HttpPost]

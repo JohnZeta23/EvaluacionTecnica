@@ -27,7 +27,7 @@ namespace EvaluacionTecnica.Negocios
                             user.Apellido,
                             user.Cedula,
                             user.Usuario_Nombre,
-                            user.Contraseña,
+                            user.Contrasena,
                             user.Fecha_Nacimiento,
                             user.Usuario_Transaccion,
                             user.Fecha_Transaccion
@@ -53,7 +53,7 @@ namespace EvaluacionTecnica.Negocios
                             user.Apellido,
                             user.Cedula,
                             user.Usuario_Nombre,
-                            user.Contraseña,
+                            user.Contrasena,
                             user.Fecha_Nacimiento,
                             user.Usuario_Transaccion,
                             user.Fecha_Transaccion
@@ -62,10 +62,10 @@ namespace EvaluacionTecnica.Negocios
             return await query.ToListAsync<Object>();
         }
 
-        public async Task<string> LoginUsuario(string usuario_nombre, string contraseña)
+        public async Task<string> LoginUsuario(string usuario_nombre, string contrasena)
         {
             var query = from user in _context.Usuarios
-                        where user.Usuario_Nombre == usuario_nombre && user.Contraseña == contraseña
+                        where user.Usuario_Nombre == usuario_nombre && user.Contrasena == contrasena
                         select user;
 
             if (await query.CountAsync() == 0)

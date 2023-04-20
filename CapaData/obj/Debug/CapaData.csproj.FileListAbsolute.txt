@@ -1,0 +1,14 @@
+C:\Users\user\source\repos\EvaluacionTecnica\CapaData\obj\Debug\CapaData.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\EvaluacionTecnica\CapaData\obj\Debug\CapaData.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\EvaluacionTecnica\CapaData\bin\Debug\CapaData.dll.config
+C:\Users\user\source\repos\EvaluacionTecnica\CapaData\bin\Debug\CapaData.dll
+C:\Users\user\source\repos\EvaluacionTecnica\CapaData\bin\Debug\CapaData.pdb
+C:\Users\user\source\repos\EvaluacionTecnica\CapaData\bin\Debug\EntityFramework.dll
+C:\Users\user\source\repos\EvaluacionTecnica\CapaData\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\source\repos\EvaluacionTecnica\CapaData\bin\Debug\EntityFramework.xml
+C:\Users\user\source\repos\EvaluacionTecnica\CapaData\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\source\repos\EvaluacionTecnica\CapaData\obj\Debug\CapaData.csproj.CopyComplete
+C:\Users\user\source\repos\EvaluacionTecnica\CapaData\obj\Debug\CapaData.dll
+C:\Users\user\source\repos\EvaluacionTecnica\CapaData\obj\Debug\CapaData.pdb
+C:\Users\user\source\repos\EvaluacionTecnica\CapaData\obj\Debug\CapaData.Migrations.DatabaseCreation.resources
+C:\Users\user\source\repos\EvaluacionTecnica\CapaData\obj\Debug\CapaData.csproj.GenerateResource.cache

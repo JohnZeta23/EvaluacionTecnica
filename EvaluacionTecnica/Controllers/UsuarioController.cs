@@ -1,5 +1,6 @@
-﻿using EvaluacionTecnica.Negocios;
-using EvaluacionTecnica.Models;
+﻿using CapaData.Models;
+using CapaNegocios.CRUD;
+using CapaNegocios.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -14,34 +15,27 @@ namespace EvaluacionTecnica.Controllers
     [RoutePrefix("api/Usuario")]
     public class UsuarioController : ApiController
     {
-        private readonly UsuariosCRUD crud = new UsuariosCRUD();
+        private readonly ICRUD<Usuario> crud = new UsuariosCRUD();
 
         [HttpGet]
         [Route("ObtenerUsuario/{id}")]
-        public async Task<Object> ObtenerUsuario(int id)
+        public async Task<Usuario> ObtenerUsuario(int id)
         {
-            return await crud.ObtenerUsuario(id);
+            return await crud.GET(id);
         }
 
         [HttpGet]
         [Route("ListarUsuarios")]
-        public async Task<List<Object>> ListarUsuarios()
+        public async Task<List<Usuario>> ListarUsuarios()
         {
-            return await crud.ListarUsuarios();
-        }
-
-        [HttpGet]
-        [Route("LoginUsuario/{usuario_nombre}/{contraseña}")]
-        public async Task<string> LoginUsuario(string usuario_nombre, string contrasena)
-        {
-            return await crud.LoginUsuario(usuario_nombre, contrasena);
+            return await crud.GETALL();
         }
 
         [HttpPost]
         [Route("RegistrarUsuario")]
         public async Task<Usuario> RegistrarUsuario(Usuario usuario)
         {
-            return await crud.RegistrarUsuario(usuario);
+            return await crud.POST(usuario);
         }
 
         [HttpPut]
@@ -49,14 +43,14 @@ namespace EvaluacionTecnica.Controllers
 
         public async Task<string> EditarUsuario(int id, Usuario usuario)
         {
-            return await crud.EditarUsuario(id, usuario);
+            return await crud.PUT(id, usuario);
         }
 
         [HttpDelete]
         [Route("EliminarUsuario/{id}")]
         public async Task<string> EliminarUsuario(int id)
         {
-            return await crud.EliminarUsuario(id);
+            return await crud.DELETE(id);
         }
     }
 }

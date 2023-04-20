@@ -184,22 +184,12 @@
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoginController.cs" />
     <Compile Include="Controllers\RoleController.cs" />
     <Compile Include="Controllers\UsuarioController.cs" />
-    <Compile Include="Data\EvaluacionTecnicaDBContext.cs" />
-    <Compile Include="Negocios\RoleCRUD.cs" />
-    <Compile Include="Negocios\UsuariosCRUD.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202304141605419_Database-Creation.cs" />
-    <Compile Include="Migrations\202304141605419_Database-Creation.designer.cs">
-      <DependentUpon>202304141605419_Database-Creation.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\Role.cs" />
-    <Compile Include="Models\Usuario.cs" />
-    <Compile Include="Negocios\LogUsuario-Transaccion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -220,9 +210,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202304141605419_Database-Creation.resx">
-      <DependentUpon>202304141605419_Database-Creation.cs</DependentUpon>
-    </EmbeddedResource>
+    <ProjectReference Include="..\CapaData\CapaData.csproj">
+      <Project>{c71b3f93-b841-42fd-b2f2-5c48a3999a9f}</Project>
+      <Name>CapaData</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CapaNegocios\CapaNegocios.csproj">
+      <Project>{77B09754-E9A3-40B8-986C-4441A9275469}</Project>
+      <Name>CapaNegocios</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

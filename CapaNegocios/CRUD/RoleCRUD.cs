@@ -14,7 +14,12 @@ namespace CapaNegocios.CRUD
 {
     public class RoleCRUD : ICRUD<Role>
     {
-        private readonly EvaluacionTecnicaDBContext _context = new EvaluacionTecnicaDBContext();
+        private readonly EvaluacionTecnicaDBContext _context;
+
+        public RoleCRUD(EvaluacionTecnicaDBContext context)
+        {
+            _context = context;
+        }
 
         public async Task<Role> GET(int id)
         {

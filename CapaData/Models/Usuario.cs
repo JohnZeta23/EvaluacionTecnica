@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 using System.ComponentModel;
+using Newtonsoft.Json;
 
 namespace CapaData.Models
 {
@@ -16,6 +17,7 @@ namespace CapaData.Models
         public int Id { get; set; }
         [ForeignKey("role")]
         public int RoleId { get; set; }
+        [JsonIgnore]
         public Role role { get; set; }
         public string Nombre { get; set; }
         public string Apellido { get; set; }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -15,5 +16,7 @@ namespace CapaData.Models
         public string Nombre { get; set; }
         public string Usuario_Transaccion { get; set; } = "USER";
         public DateTime Fecha_Transaccion { get; set; } = DateTime.Now;
+        [JsonIgnore]
+        public List<Usuario> usuarios { get; set; }
     }
 }

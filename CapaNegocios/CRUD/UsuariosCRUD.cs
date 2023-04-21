@@ -30,9 +30,6 @@ namespace CapaNegocios.CRUD
                 throw new Exception($"El usuario del ID {id} no existe en la Base de datos");
             }
 
-            Role role = await _context.Roles.FindAsync(usuario.RoleId);
-            usuario.role = role;
-
             return usuario;
         }
 
@@ -43,12 +40,6 @@ namespace CapaNegocios.CRUD
             if (Usuarios == null)
             {
                 throw new Exception("No hay registros en esta base de datos");
-            }
-
-            foreach (Usuario usuario in Usuarios)
-            {
-                Role role = await _context.Roles.FindAsync(usuario.RoleId);
-                usuario.role = role;
             }
 
             return Usuarios;

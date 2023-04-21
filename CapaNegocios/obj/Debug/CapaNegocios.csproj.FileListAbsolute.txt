@@ -25,3 +25,5 @@ C:\Users\user\Downloads\EvaluacionTecnica\CapaNegocios\obj\Debug\CapaNegocios.cs
 C:\Users\user\Downloads\EvaluacionTecnica\CapaNegocios\obj\Debug\CapaNegocios.csproj.CopyComplete
 C:\Users\user\Downloads\EvaluacionTecnica\CapaNegocios\obj\Debug\CapaNegocios.dll
 C:\Users\user\Downloads\EvaluacionTecnica\CapaNegocios\obj\Debug\CapaNegocios.pdb
+C:\Users\user\Downloads\EvaluacionTecnica\CapaNegocios\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\Downloads\EvaluacionTecnica\CapaNegocios\bin\Debug\Newtonsoft.Json.xml

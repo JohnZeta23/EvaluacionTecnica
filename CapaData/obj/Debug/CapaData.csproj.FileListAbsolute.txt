@@ -26,3 +26,5 @@ C:\Users\user\Downloads\EvaluacionTecnica\CapaData\obj\Debug\CapaData.dll
 C:\Users\user\Downloads\EvaluacionTecnica\CapaData\obj\Debug\CapaData.pdb
 C:\Users\user\Downloads\EvaluacionTecnica\CapaData\obj\Debug\CapaData.Migrations.CreateDatabase.resources
 C:\Users\user\Downloads\EvaluacionTecnica\CapaData\obj\Debug\CapaData.csproj.GenerateResource.cache
+C:\Users\user\Downloads\EvaluacionTecnica\CapaData\bin\Debug\Newtonsoft.Json.dll
+C:\Users\user\Downloads\EvaluacionTecnica\CapaData\bin\Debug\Newtonsoft.Json.xml

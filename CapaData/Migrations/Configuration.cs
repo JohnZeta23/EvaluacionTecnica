@@ -12,7 +12,7 @@
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(EvaluacionTecnicaDBContext context)
+        protected override void Seed(CapaData.EvaluacionTecnicaDBContext context)
         {
             //  This method will be called after migrating to the latest version.
 

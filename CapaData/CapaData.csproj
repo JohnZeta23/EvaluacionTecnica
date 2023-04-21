@@ -52,9 +52,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="EvaluacionTecnicaDBContext.cs" />
-    <Compile Include="Migrations\202304141605419_Database-Creation.cs" />
-    <Compile Include="Migrations\202304141605419_Database-Creation.Designer.cs">
-      <DependentUpon>202304141605419_Database-Creation.cs</DependentUpon>
+    <Compile Include="Migrations\202304202225359_CreateDatabase.cs" />
+    <Compile Include="Migrations\202304202225359_CreateDatabase.designer.cs">
+      <DependentUpon>202304202225359_CreateDatabase.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Role.cs" />
@@ -66,8 +66,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202304141605419_Database-Creation.resx">
-      <DependentUpon>202304141605419_Database-Creation.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202304202225359_CreateDatabase.resx">
+      <DependentUpon>202304202225359_CreateDatabase.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

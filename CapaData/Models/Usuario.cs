@@ -14,8 +14,8 @@ namespace CapaData.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.None)]
         public int Id { get; set; }
+        [ForeignKey("role")]
         public int RoleId { get; set; }
-        [ForeignKey("RoleId")]
         public Role role { get; set; }
         public string Nombre { get; set; }
         public string Apellido { get; set; }

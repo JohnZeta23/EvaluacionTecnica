@@ -12,3 +12,16 @@ C:\Users\user\source\repos\EvaluacionTecnica\CapaNegocios\bin\Debug\EntityFramew
 C:\Users\user\source\repos\EvaluacionTecnica\CapaNegocios\obj\Debug\CapaNegocios.csproj.CopyComplete
 C:\Users\user\source\repos\EvaluacionTecnica\CapaNegocios\obj\Debug\CapaNegocios.dll
 C:\Users\user\source\repos\EvaluacionTecnica\CapaNegocios\obj\Debug\CapaNegocios.pdb
+C:\Users\user\Downloads\EvaluacionTecnica\CapaNegocios\bin\Debug\CapaNegocios.dll.config
+C:\Users\user\Downloads\EvaluacionTecnica\CapaNegocios\bin\Debug\CapaNegocios.dll
+C:\Users\user\Downloads\EvaluacionTecnica\CapaNegocios\bin\Debug\CapaNegocios.pdb
+C:\Users\user\Downloads\EvaluacionTecnica\CapaNegocios\bin\Debug\CapaData.dll
+C:\Users\user\Downloads\EvaluacionTecnica\CapaNegocios\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\user\Downloads\EvaluacionTecnica\CapaNegocios\bin\Debug\CapaData.pdb
+C:\Users\user\Downloads\EvaluacionTecnica\CapaNegocios\bin\Debug\CapaData.dll.config
+C:\Users\user\Downloads\EvaluacionTecnica\CapaNegocios\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\user\Downloads\EvaluacionTecnica\CapaNegocios\obj\Debug\CapaNegocios.csproj.AssemblyReference.cache
+C:\Users\user\Downloads\EvaluacionTecnica\CapaNegocios\obj\Debug\CapaNegocios.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\EvaluacionTecnica\CapaNegocios\obj\Debug\CapaNegocios.csproj.CopyComplete
+C:\Users\user\Downloads\EvaluacionTecnica\CapaNegocios\obj\Debug\CapaNegocios.dll
+C:\Users\user\Downloads\EvaluacionTecnica\CapaNegocios\obj\Debug\CapaNegocios.pdb

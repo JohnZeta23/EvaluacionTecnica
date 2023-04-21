@@ -277,3 +277,11 @@ C:\Users\user\Downloads\EvaluacionTecnica\EvaluacionTecnica\obj\Debug\Evaluacion
 C:\Users\user\Downloads\EvaluacionTecnica\EvaluacionTecnica\obj\Debug\EvaluacionTecnica.csproj.CopyComplete
 C:\Users\user\Downloads\EvaluacionTecnica\EvaluacionTecnica\obj\Debug\EvaluacionTecnica.dll
 C:\Users\user\Downloads\EvaluacionTecnica\EvaluacionTecnica\obj\Debug\EvaluacionTecnica.pdb
+C:\Users\user\Downloads\EvaluacionTecnica\EvaluacionTecnica\bin\Unity.Abstractions.dll
+C:\Users\user\Downloads\EvaluacionTecnica\EvaluacionTecnica\bin\Unity.Container.dll
+C:\Users\user\Downloads\EvaluacionTecnica\EvaluacionTecnica\bin\Unity.Mvc5.dll
+C:\Users\user\Downloads\EvaluacionTecnica\EvaluacionTecnica\bin\Unity.Abstractions.pdb
+C:\Users\user\Downloads\EvaluacionTecnica\EvaluacionTecnica\bin\Unity.Container.pdb
+C:\Users\user\Downloads\EvaluacionTecnica\EvaluacionTecnica\bin\Swashbuckle.Core.dll
+C:\Users\user\Downloads\EvaluacionTecnica\EvaluacionTecnica\bin\WebActivatorEx.dll
+C:\Users\user\Downloads\EvaluacionTecnica\EvaluacionTecnica\bin\Unity.WebApi.dll

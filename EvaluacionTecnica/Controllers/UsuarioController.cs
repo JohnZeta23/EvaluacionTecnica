@@ -15,27 +15,32 @@ namespace EvaluacionTecnica.Controllers
     [RoutePrefix("api/Usuario")]
     public class UsuarioController : ApiController
     {
-        private readonly ICRUD<Usuario> crud = new UsuariosCRUD();
+        readonly ICRUD<Usuario> _crud;
+
+        public UsuarioController(ICRUD<Usuario> crud)
+        {
+            _crud = crud;
+        }
 
         [HttpGet]
         [Route("ObtenerUsuario/{id}")]
         public async Task<Usuario> ObtenerUsuario(int id)
         {
-            return await crud.GET(id);
+            return await _crud.GET(id);
         }
 
         [HttpGet]
         [Route("ListarUsuarios")]
         public async Task<List<Usuario>> ListarUsuarios()
         {
-            return await crud.GETALL();
+            return await _crud.GETALL();
         }
 
         [HttpPost]
         [Route("RegistrarUsuario")]
         public async Task<Usuario> RegistrarUsuario(Usuario usuario)
         {
-            return await crud.POST(usuario);
+            return await _crud.POST(usuario);
         }
 
         [HttpPut]
@@ -43,14 +48,14 @@ namespace EvaluacionTecnica.Controllers
 
         public async Task<string> EditarUsuario(int id, Usuario usuario)
         {
-            return await crud.PUT(id, usuario);
+            return await _crud.PUT(id, usuario);
         }
 
         [HttpDelete]
         [Route("EliminarUsuario/{id}")]
         public async Task<string> EliminarUsuario(int id)
         {
-            return await crud.DELETE(id);
+            return await _crud.DELETE(id);
         }
     }
 }
